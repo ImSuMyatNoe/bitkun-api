@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: bitkun-api
+    runtime: python
+    pythonVersion: 3.10
+    buildCommand: ""
+    startCommand: python bitkun_api.py
