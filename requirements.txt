@@ -5,3 +5,10 @@ transformers==4.36.2
 accelerate==0.25.0
 safetensors==0.4.2
 gdown
+
+gradio
+transformers
+diffusers
+torch==2.0.1
+xformers
+safetensors
