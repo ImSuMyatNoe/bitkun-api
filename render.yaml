@@ -1,9 +1,7 @@
 services:
   - type: web
     name: bitkun-api
-    runtime: python
-    buildCommand: ""
-    startCommand: python bitkun_api.py
-    envVars:
-      - key: PYTHON_VERSION
-        value: 3.10
+    env: python
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "python bitkun_api.py"
+    pythonVersion: 3.10.0
